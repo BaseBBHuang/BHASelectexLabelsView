@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var selectedLabelView: HBASelectedLabelView!
 
     
-    let titleArrDemo: Array = ["iOS", "工资低", "加班累", "标签太长", "小明不高兴了", "心里也很浮躁", "tiele", "小明", "小明", "小明","iOS", "工资低", "加班累", "标签太长", "小明不高兴了", "心里也很浮躁"]
+    let titleArrDemo: Array = ["iOS", "android", "html", "html5", "Rxswift", "Reactive-OC", "Rumtime", "RunLoop", "swift", "Vue.js","Weex", "ReactNative", "HBASelectedLabelView", "ARKit", "SceneKit", "Unity3D"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         let menuLabel = UILabel()
         menuLabel.textAlignment = .center
         menuLabel.backgroundColor = UIColor.blue
-        menuLabel.text = "new" + String(arc4random() % 60)
+        menuLabel.text = "Rxswift" + String(arc4random() % 60)
         menuLabel.textColor = UIColor.white
         menuLabel.font = UIFont.systemFont(ofSize: 14)
         let width = menuLabel.widthOfSizeToFit()
